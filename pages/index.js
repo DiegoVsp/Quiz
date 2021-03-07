@@ -28,12 +28,25 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
-      <meta property="og:image" content={db.bg}></meta>
       <QuizContainer>
         <QuizLogo />
         <Widget>
           <Widget.Header>
             <h1>{db.title}</h1>
+            <meta name="title" content="Quiz World of Warcraft"></meta>
+            <meta name="description" content=""></meta>
+
+            <meta property="og:type" content="website"></meta>
+            <meta property="og:url" content="https://quiz-git-main-diegovespa.vercel.app/"></meta>
+            <meta property="og:title" content="Quiz World of Warcraft"></meta>
+            <meta property="og:description" content=""></meta>
+            <meta property="og:image" content="https://i1.wp.com/www.game-change.co.uk/wp-content/uploads/2016/10/wowpaper.jpg?fit=1920%2C1080&ssl=1"></meta>
+
+            <meta property="twitter:card" content="summary_large_image"></meta>
+            <meta property="twitter:url" content="https://quiz-git-main-diegovespa.vercel.app/"></meta>
+            <meta property="twitter:title" content="Quiz World of Warcraft"></meta>
+            <meta property="twitter:description" content=""></meta>
+            <meta property="twitter:image" content="https://i1.wp.com/www.game-change.co.uk/wp-content/uploads/2016/10/wowpaper.jpg?fit=1920%2C1080&ssl=1"></meta>
           </Widget.Header>
           <Widget.Content>
             <p>{db.description}</p>
