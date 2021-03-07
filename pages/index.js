@@ -29,11 +29,13 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
+      
       <QuizContainer>
         <QuizLogo />
         <Widget>
           <Widget.Header>
             <h1>{db.title}</h1>
+            <meta property="og:image" content={db.bg}/>
           </Widget.Header>
           <Widget.Content>
             <p>{db.description}</p>
