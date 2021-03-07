@@ -1,0 +1,125 @@
+{
+  "bg": "https://i1.wp.com/www.game-change.co.uk/wp-content/uploads/2016/10/wowpaper.jpg?fit=1920%2C1080&ssl=1",
+  "title": "Quiz World of Warcraft",
+  "description": "Mostre pra todos que você sabe muito sobre World Of Warcraft.",
+  "questions": [
+    {
+      "image": "https://media.giphy.com/media/J6JazAkCVLId91L4yM/giphy.gif",
+      "title": "Quem foram os elementais que enfrentaram o Panteão?",
+      "description": "Medium",
+      "answer": 0,
+      "alternatives": [
+        "Ragnaros, Therazane, Al’Akir e Neptulon",
+        "Rangar, Theron, Akira e Netuno",
+        "Ragnarok, Therazai, Akarion e Neutron",
+        "Raginaros, Therion, Al’karion e Neptimon"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/Tk72PfpE5RVcZF8XHN/giphy.gif",
+      "title": "Quais personagens já assumiram o título de Lich Rei?",
+      "description": "Medium",
+      "answer": 2,
+      "alternatives": [
+        "Nazjatar, Arthas e Bolvar",
+        "Orzak, Arthur e Bolvan",
+        "Ner’zhul, Arthas e Bolvar",
+        "Kil’Jaeden, Uther e Bolivar"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/fTn01fiFdTd5pL60ln/giphy.gif",
+      "title": "Quantas vezes Sylvana Correventos já morreu?",
+      "description": "Medium",
+      "answer": 2,
+      "alternatives": [
+        "Uma",
+        "Duas",
+        "Três",
+        "Quatro"
+      ]
+    },
+    {
+      "image": "https://66.media.tumblr.com/7d00d16b845cfaea1348336d8a2d6a4e/ddaa859f1bf7a6f7-a7/s540x810/9dc80dce553c968860c0d616b1bbe1e63181d836.gif",
+      "title": "Com quem a Rainha Azshara fez um pacto?",
+      "description": "Medium",
+      "answer": 0,
+      "alternatives": [
+        "N’Zoth",
+        "N’Azguz",
+        "N’Goth",
+        "N’Agar"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/S6C1GLnJjTL6xbw5ZJ/giphy.gif",
+      "title": "Por que Jaina Proudmoore foi considerada uma traidora?",
+      "description": "Medium",
+      "answer": 1,
+      "alternatives": [
+        "Por ser uma espiã da Horda",
+        "Por matar seu pai",
+        "Por querer destruir a Aliança",
+        "Por não ajudar seu pai na luta contra Horda"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/f7k6TfAFkiAqKVcJGH/giphy.gif",
+      "title": "Qual era o objetivo de Illidan?",
+      "description": "Medium",
+      "answer": 2,
+      "alternatives": [
+        "Exterminar a Horda", 
+        "Matar todos os Elfos Sangrentos", 
+        "Destruir a Legião Ardente", 
+        "Conquistar o mundo"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/Yq1tXTNe5PDdQEhKXG/giphy.gif",
+      "title": "Qual a raça de Sargeras?",
+      "description": "Medium",
+      "answer": 3,
+      "alternatives": [
+        "Draenei",
+        "Elfo Noturno",
+        "Demônio",
+        "Titã"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/dyjrpqaUVqCELGuQVr/giphy.gif",
+      "title": "Quais destes são os filhos de Neltharion?",
+      "description": "Medium",
+      "answer": 1,
+      "alternatives": [
+        "Onyx e Wrathion",
+        "Nefarian e Onyxia",
+        "Nayondra e Wraxirion",
+        "Syberion e Nefariomon"
+      ]
+    }
+  ],
+  "external": [
+    "https://aluraquiz-css.omariosouto.vercel.app/",
+    "https://rpdr-quiz.lucasgmelo.vercel.app/"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#76A68F",
+      "secondary": "#F27F3D",
+      "mainBg": "#252C40",
+      "contrastText": "#F2D9D0",
+      "extraColor": "#7BCFFD",
+      "wrong": "#E74C3C",
+      "wrogFlash": "#9d0025",
+      "success": "#43CD80",
+      "successFlash": "#008B45"
+    },
+    "gradientBlue": "linear-gradient(to right bottom, rgba(37, 44, 64, .6), rgba(37, 44, 64, 1))",
+    "gradientGreen": "linear-gradient(to right bottom, rgba(118, 166, 128, .4), rgba(118, 166, 128, .7))",
+    "gradientGreen2": "linear-gradient(to right bottom, rgba(118, 166, 128, .3), rgba(118, 166, 128, .5))",
+    "borderRadius": "4px",
+    "boxShadow": "4px 4px 8px rgba(0, 0, 0, .5)"
+  }
+}
