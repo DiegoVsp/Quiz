@@ -114,7 +114,8 @@
       "wrong": "#E74C3C",
       "wrogFlash": "#9d0025",
       "success": "#43CD80",
-      "successFlash": "#008B45"
+      "successFlash": "#008B45",
+      "git":"#6FD369"
     },
     "gradientBlue": "linear-gradient(to right bottom, rgba(37, 44, 64, .6), rgba(37, 44, 64, 1))",
     "gradientGreen": "linear-gradient(to right bottom, rgba(118, 166, 128, .4), rgba(118, 166, 128, .7))",
