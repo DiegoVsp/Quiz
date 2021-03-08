@@ -4,7 +4,7 @@
   "description": "Mostre pra todos que você sabe muito sobre World Of Warcraft.",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/J6JazAkCVLId91L4yM/giphy.gif",
+      "image": "https://64.media.tumblr.com/a5b4dc00a014e0371a626faf56515534/tumblr_oz3w1hxScn1r687oqo8_r3_250.gifv",
       "title": "Quem foram os elementais que enfrentaram o Panteão?",
       "description": "Medium",
       "answer": 0,
@@ -106,11 +106,11 @@
   ],
   "theme": {
     "colors": {
-      "primary": "#644E55",
-      "secondary": "#F27F3D",
+      "primary": "#103433",
+      "secondary": "#56877B",
       "mainBg": "#252C40",
       "contrastText": "#F2D9D0",
-      "extraColor": "#7BCFFD",
+      "extraColor": "#6FD369",
       "wrong": "#E74C3C",
       "wrogFlash": "#9d0025",
       "success": "#43CD80",
