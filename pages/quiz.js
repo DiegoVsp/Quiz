@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import db from '../db.json';
 import Widget from '../src/components/Widget';
@@ -21,8 +21,11 @@ function LoadingWidget() {
     </Widget>
   );
 }
-function QuestionWidget({ question, totalQuestions, questionIndex }) {
+function QuestionWidget({
+  question, totalQuestions, questionIndex, onSubmit,
+}) {
   const questionId = `question__${questionIndex}`;
+
   return (
     <Widget>
       <Widget.Header>
@@ -34,7 +37,12 @@ function QuestionWidget({ question, totalQuestions, questionIndex }) {
       <Widget.Content>
         <h2>{question.title}</h2>
         <p>{question.description}</p>
-        <form action="">
+
+        <form onSubmit={(infosDoEvento) => {
+          infosDoEvento.preventDefault();
+          onSubmit();
+        }}
+        >
           {question.alternatives.map((alternative, alternativeIndex) => {
             const alternativeID = `alternative_${alternativeIndex}`;
             return (
@@ -57,22 +65,54 @@ function QuestionWidget({ question, totalQuestions, questionIndex }) {
   );
 }
 
-export default function QuizPage() {
-  const questionIndex = 1;
-  const question = db.questions[questionIndex];
-  const totalQuestions = db.questions.length;
+const screenStates = {
+  QUIZ: 'QUIZ',
+  LOADING: 'LOADING',
+  RESULT: 'RESULT',
+};
 
-  console.log('Perguntas criadas', db.questions);
+export default function QuizPage() {
+  const [screenState, setScreenState] = useState(screenStates.LOADING);
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const questionIndex = currentQuestion;
+  const totalQuestions = db.questions.length;
+  const question = db.questions[questionIndex];
+
+  // [React chama de: Efeitos || Effects]
+  // useEffect
+  // atualizado === willUpdate
+  // morre === willUnmount
+  useEffect(() => {
+    // fetch()...
+    setTimeout(() => {
+      setScreenState(screenStates.QUIZ);
+    }, 1 * 1000);
+    // Nasce === didMount
+  }, []);
+
+  function handleSubmitQuiz() {
+    const nextQuestion = questionIndex + 1;
+    if (nextQuestion < totalQuestions) {
+      setCurrentQuestion(questionIndex + 1);
+    } else {
+      setScreenState(screenStates.RESULT);
+    }
+  }
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
         <QuizLogo />
-        <QuestionWidget
-          question={question}
-          totalQuestions={totalQuestions}
-          questionIndex={questionIndex}
-        />
-        <LoadingWidget />
+        {screenState === screenStates.QUIZ && (
+          <QuestionWidget
+            onSubmit={handleSubmitQuiz}
+            question={question}
+            totalQuestions={totalQuestions}
+            questionIndex={questionIndex}
+          />
+        )}
+
+        {screenState === screenStates.LOADING && <LoadingWidget />}
+        {screenState === screenStates.RESULT && <div>Você acertou X questões, Parabéns!</div>}
 
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/diegovsp" />

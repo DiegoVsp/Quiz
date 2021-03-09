@@ -28,34 +28,24 @@
       ]
     },
     {
-      "image": "https://media.giphy.com/media/fTn01fiFdTd5pL60ln/giphy.gif",
+      "image": "https://i.pinimg.com/originals/95/6d/3f/956d3f1aebcb07c4365d6c772a7f7595.gif",
       "title": "Quantas vezes Sylvana Correventos já morreu?",
       "description": "Medium",
       "answer": 2,
-      "alternatives": [
-        "Uma",
-        "Duas",
-        "Três",
-        "Quatro"
-      ]
+      "alternatives": ["Uma", "Duas", "Três", "Quatro"]
     },
     {
-      "image": "https://66.media.tumblr.com/7d00d16b845cfaea1348336d8a2d6a4e/ddaa859f1bf7a6f7-a7/s540x810/9dc80dce553c968860c0d616b1bbe1e63181d836.gif",
+      "image": "https://i.pinimg.com/originals/83/7c/79/837c79f531f5e97f5e04440791ef6f5c.gif",
       "title": "Com quem a Rainha Azshara fez um pacto?",
       "description": "Medium",
       "answer": 0,
-      "alternatives": [
-        "N’Zoth",
-        "N’Azguz",
-        "N’Goth",
-        "N’Agar"
-      ]
+      "alternatives": ["N’Zoth", "N’Azguz", "N’Goth", "N’Agar"]
     },
     {
-      "image": "https://media.giphy.com/media/S6C1GLnJjTL6xbw5ZJ/giphy.gif",
+      "image": "https://64.media.tumblr.com/6041a349f51e52fbef1956a5a7cd83c3/tumblr_pobhzjvEB61v5xpr8o2_540.gifv",
       "title": "Por que Jaina Proudmoore foi considerada uma traidora?",
       "description": "Medium",
-      "answer": 1,
+      "answer": 3,
       "alternatives": [
         "Por ser uma espiã da Horda",
         "Por matar seu pai",
@@ -64,31 +54,26 @@
       ]
     },
     {
-      "image": "https://media.giphy.com/media/f7k6TfAFkiAqKVcJGH/giphy.gif",
+      "image": "https://media1.tenor.com/images/9675307833449109b5e9286f14f74de9/tenor.gif?itemid=10891728",
       "title": "Qual era o objetivo de Illidan?",
       "description": "Medium",
       "answer": 2,
       "alternatives": [
-        "Exterminar a Horda", 
-        "Matar todos os Elfos Sangrentos", 
-        "Destruir a Legião Ardente", 
+        "Exterminar a Horda",
+        "Matar todos os Elfos Sangrentos",
+        "Destruir a Legião Ardente",
         "Conquistar o mundo"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/Yq1tXTNe5PDdQEhKXG/giphy.gif",
+      "image": "https://thumbs.gfycat.com/ScrawnyIncompatibleChupacabra-size_restricted.gif",
       "title": "Qual a raça de Sargeras?",
       "description": "Medium",
       "answer": 3,
-      "alternatives": [
-        "Draenei",
-        "Elfo Noturno",
-        "Demônio",
-        "Titã"
-      ]
+      "alternatives": ["Draenei", "Elfo Noturno", "Demônio", "Titã"]
     },
     {
-      "image": "https://media.giphy.com/media/dyjrpqaUVqCELGuQVr/giphy.gif",
+      "image": "https://steamuserimages-a.akamaihd.net/ugc/26219457585302584/967194771DBC06FE9C346244315BB14245DB77C8/",
       "title": "Quais destes são os filhos de Neltharion?",
       "description": "Medium",
       "answer": 1,
@@ -115,7 +100,7 @@
       "wrogFlash": "#9d0025",
       "success": "#43CD80",
       "successFlash": "#008B45",
-      "git":"#6FD369"
+      "git": "#6FD369"
     },
     "gradientBlue": "linear-gradient(to right bottom, rgba(37, 44, 64, .6), rgba(37, 44, 64, 1))",
     "gradientGreen": "linear-gradient(to right bottom, rgba(118, 166, 128, .4), rgba(118, 166, 128, .7))",
