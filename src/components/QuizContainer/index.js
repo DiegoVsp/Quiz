@@ -6,9 +6,10 @@ width:100%;
 max-width:350px;
 padding-top:45px;
 margin:auto 10%;
+/* transform:translateX(-50%); */
 
 @media screen and (max-width: 500px){
-  margin: auto;
+  margin: auto ;
   padding: 15px;
 }
 `;

@@ -35,7 +35,13 @@ background-color: ${({ theme }) => theme.colors.secondary};
 Widget.Content = styled.div`
 background-color: ${({ theme }) => theme.colors.primary};
 padding:24px 32px 32px 32px;
-
+p span {
+  font-size:2rem;
+}
+p:last-child{
+  font-size:2rem;
+  text-align:center;
+}
 &>*:first-child{
   margin-top:0;
 }
