@@ -1,16 +1,15 @@
 /* eslint-disable react/prop-types */
 import React, { useEffect, useState } from 'react';
 
-import db from '../db.json';
-import Widget from '../src/components/Widget';
-import QuizLogo from '../src/components/QuizLogo';
-import QuizBackground from '../src/components/QuizBackground';
-import Button from '../src/components/Button';
-import QuizContainer from '../src/components/QuizContainer';
-import GitHubCorner from '../src/components/GitHubCorner';
-import AlternativeForm from '../src/components/AlternativeForm';
-import LoadingWidget from '../src/components/LoadingWidget';
-
+import db from '../../db.json';
+import Widget from '../../src/components/Widget';
+import QuizLogo from '../../src/components/QuizLogo';
+import QuizBackground from '../../src/components/QuizBackground';
+import Button from '../../src/components/Button';
+import QuizContainer from '../../src/components/QuizContainer';
+import GitHubCorner from '../../src/components/GitHubCorner';
+import AlternativeForm from '../../src/components/AlternativeForm';
+import LoadingWidget from '../../src/components/LoadingWidget';
 
 function ResultWidget({ results }) {
   return (
@@ -32,7 +31,6 @@ function ResultWidget({ results }) {
           <span>{results.filter((x) => x).length}</span>
           {' '}
           pergunta(s)
-
         </p>
         <ul>
           {results.map((result, index) => (
@@ -111,12 +109,12 @@ function QuestionWidget({
           })}
 
           <Button type="submit" disabled={!hasAlternativeSelected}>Confirmar</Button>
-          <p>
-            {/* selectedAlternative:
-            {`${selectedAlternative}`} */}
-          </p>
-          {isQuestionSubmited && isCorrect && <p>Você acertou!!</p>}
-          {isQuestionSubmited && !isCorrect && <p>Você errou!!</p>}
+          {/* <p>
+            selectedAlternative:
+            {`${selectedAlternative}`}
+          </p> */}
+          {isQuestionSubmited && isCorrect && <p className="res">Você acertou!!</p>}
+          {isQuestionSubmited && !isCorrect && <p className="res">Você errou!!</p>}
 
         </AlternativeForm>
       </Widget.Content>

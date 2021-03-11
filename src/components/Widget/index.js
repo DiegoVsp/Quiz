@@ -38,7 +38,8 @@ padding:24px 32px 32px 32px;
 p span {
   font-size:2rem;
 }
-p:last-child{
+
+.res{
   font-size:2rem;
   text-align:center;
 }
